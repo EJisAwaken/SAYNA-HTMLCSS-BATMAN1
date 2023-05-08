@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    border: 1px solid white;
+
+}
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 15% ;
+}
+
+.home ul li{
+    font-size: 3vw;
+}
+.home ul li:hover{
+    text-decoration: underline white 2px ;
+}
+
+body{
+    background-color: black;
+    background-image: url("Images/Illustrations/Bathome1.png");
+    background-repeat: no-repeat;
+    background-size: contain ;
+    border: 1px solid white;
+    margin: 3% 7%;
+
+}
+
+main{
+    color: white;
+}
+
+.intro p{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.bt{
+    font-size: 34px;
+}
+
+.boutons{
+    text-align: center;
+}
+
+.boutons button{
+    padding: 2%;
+    opacity:0.4;
+    font-size: large;
+    background-color: rgba(212,236,249,0.5);
+}
+
+.boutons button:hover{
+    animation: grad 4s ease forwards ;
+}
+
+@keyframes grad {
+
+    40%{
+        background-image:linear-gradient(to right, #EDDEBF, #19587D) ;
+        opacity: 0.5;
+
+    }
+
+    100%{
+
+        background-image:linear-gradient(to right, #EDDEBF, #19587D);
+        opacity: 0.1;
+
+}
+    
+}
+
+.fleche a img{
+    margin: 0 45%;
+}
+
+
+.titres p{
+    text-align: justify;
+    padding: 0 15% 0 2%;
+
+}
+
+.bat{
+    display: flex;
+}
+
+.reseau img{
+    display: block;
+    margin:auto;
+}
+
+.scroll{
+    margin: -20% 0 0 82.5%;
+    position: fixed;
+    justify-content: space-between;
+}
+.scard img{
+    width: 90%;
+    justify-content: space-between;
+    margin: 0 30px;
+}
+
+.fl a img:hover{
+    filter:  invert(100%) sepia(100%);
+    -webkit-filter: invert(50%) sepia(2.1%) brightness(40%);
+
+
+}
+
+.mot p{
+    margin-left: 40px;
+    text-align: center;
+    font-size: 1.6vw;
+}
+
+.batman{
+    margin: 10%;
+}
+
+.lg{
+    margin: 0 10%;
+}
+
+.justice img{
+    width: 116%;
+    margin-left: -8%;
+}
+
+.multimedia{
+    display: flex;
+    justify-content: space-between;
+    margin: 3%;
+    align-content: center;
+}
+
+.centre2{
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: rgba(55,64,65,0.99);
+    width: 45%;
+    margin-left: -16% ;
+    padding: 2% 0 2% 2%;
+
+}
+
+.centre2 p{
+    font-size: 13px;
+}
+
+.flecheg{
+    margin-top: 100px;
+}
+
+.fin img{
+    width: 80%;
+    margin: 10%;
+}
+
+.formulaire{
+    width: 116%;
+    border: 1px solid white;
+    background-image:linear-gradient(to left, #19587D, #EDDEBF);
+    margin-left: -8.4%;
+    padding: 5% 0;
+}
+
+.formulaire h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.formulaire form{
+    margin: 4% 20%;
+}
+
+input{
+    background-color: rgba(37,39,41,0.59);
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom-color: white;
+    width: 80%;
+    height: 35px;
+}
+
+.btn2{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 25%;
+}
+
+.btn2 button{
+    padding: 2%;
+}
+
+#msg{
+    width: 80%;
+}
+
+.submit{
+    text-align: center;
+}
+
+.submit input{
+    padding: 4% 10%;
+}
+
+.citation p{
+    text-align: center;
+    margin-top: 20%
+}
+
+.foot1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.foot1 p{
+    text-align: center;
+    color: white;
+}
+
+.Res{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.Res img{
+
+}
+
+.x{
+    margin: 15px;
+}
+
+
+
+
+
+
+
+                                        /*Ecran */
+
+/*@media screen and (max-width:1000px){*/
+/*    .scroll{*/
+/*    margin: 20px 80.8%;*/
+
+/*    */
+/*}*/
+
