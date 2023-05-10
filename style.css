@@ -57,24 +57,7 @@ main{
 }
 
 .boutons button:hover{
-    animation: grad 4s ease forwards ;
-}
-
-@keyframes grad {
-
-    40%{
-        background-image:linear-gradient(to right, #EDDEBF, #19587D) ;
-        opacity: 0.5;
-
-    }
-
-    100%{
-
-        background-image:linear-gradient(to right, #EDDEBF, #19587D);
-        opacity: 0.1;
-
-}
-    
+   background-image:linear-gradient(to right, #EDDEBF, #19587D) ;
 }
 
 .fleche a img{
@@ -108,17 +91,10 @@ main{
     margin: 0 30px;
 }
 
-.fl a img:hover{
-    filter:  invert(100%) sepia(100%);
-    -webkit-filter: invert(50%) sepia(2.1%) brightness(40%);
+.fl a img:hover, #logob1:hover, .reseau img:hover{
+  filter: invert(4%) sepia(100%) saturate(1023%) hue-rotate(358deg) brightness(106%) contrast(107%);
+    -webkit-filter: invert(4%) sepia(100%) saturate(1023%) hue-rotate(358deg) brightness(106%) contrast(107%); ;
 
-
-}
-
-.mot p{
-    margin-left: 40px;
-    text-align: center;
-    font-size: 1.6vw;
 }
 
 .batman{
@@ -167,21 +143,26 @@ main{
 .formulaire{
     width: 116%;
     border: 1px solid white;
-    background-image:linear-gradient(to left, #19587D, #EDDEBF);
+    background-image:linear-gradient(to top left, #19587D, #C4C4C4);
+    filter: saturate(1);
     margin-left: -8.4%;
     padding: 5% 0;
 }
 
-.formulaire h1{
+input, select{
+    background: rgba(0,0,0,0.1);
+    border: none;
+}
+
+.formulaire h2{
     text-align: center;
-    font-size: 40px;
 }
 
 .formulaire form{
     margin: 4% 20%;
 }
 
-input{
+#email, #msg{
     background-color: rgba(37,39,41,0.59);
     border-left: none;
     border-top: none;
@@ -189,6 +170,11 @@ input{
     border-bottom-color: white;
     width: 80%;
     height: 35px;
+}
+
+#check{
+    width: 5%;
+    height: 20px;
 }
 
 .btn2{
