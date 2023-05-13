@@ -3,7 +3,8 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
-    scroll-behavior: smooth;}
+    scroll-behavior: smooth;
+}
 
 *:focus{
     outline: none;
@@ -36,6 +37,7 @@ body{
 
 }
 
+
 main{
     color: white;
 }
@@ -54,6 +56,7 @@ main{
 }
 
 .boutons button{
+    margin: 5%;
     padding: 2%;
     opacity:0.4;
     font-size: large;
@@ -68,11 +71,9 @@ main{
     margin: 0 45%;
 }
 
-
 .titres p{
     text-align: justify;
     padding: 0 15% 0 2%;
-
 }
 
 .bat{
@@ -178,7 +179,6 @@ main{
 
 .formulaire{
     width: 116%;
-    border: 1px solid white;
     background: linear-gradient(to bottom right, #4e4a40, #081d2a);
     margin-left: -8.4%;
     padding: 5% 0;
@@ -230,6 +230,21 @@ option{
 
                                 /*FIN FORMULAIRE*/
 
+.point{
+      width: 7px;
+      border: 1px solid blue;
+      height: 7px;
+      border-radius: 50%;
+      margin: 0.4%;
+    }
+
+    .point1{
+      display: flex;
+      justify-content: center;
+        margin-top: 30px ;
+    }
+
+
 #email, #msg{
     background-color: rgba(37,39,41,0.59);
     border-left: none;
@@ -279,16 +294,28 @@ option{
     text-align: center;
 }
 
-.point{
-    background-color: red;
-    width: 50px;
-}
-
 .p1{
     border-radius: 50%;
     border: 1px solid white;
 }
 
+.cit{
+    padding: 0 0 10% 0 ;
+}
+
+#guill2{
+    position: absolute;
+    margin: 0 0 0 60%;
+}
+
+#guill2 img,#guill1 img{
+    width: 50%;
+}
+
+#guill1{
+    margin: -4% 0 0 15%;
+    position: absolute;
+}
 .x{
     margin: 15px;
 }
